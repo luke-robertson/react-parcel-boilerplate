@@ -1,5 +1,20 @@
 import React from 'react'
+import injectSheet from 'react-jss'
+import PropTypes from 'prop-types'
 
-const Background = () => <div>Hello World</div>
+const styles = {
+  text: {
+    color: 'red',
+    fontSize: '20px'
+  }
+}
 
-export default Background
+const Background = ({ classes }) => (
+  <div className={classes.text}>Hello World</div>
+)
+
+Background.propTypes = {
+  classes: PropTypes.object
+}
+
+export default injectSheet(styles)(Background)
