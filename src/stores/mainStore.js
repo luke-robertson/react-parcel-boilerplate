@@ -2,6 +2,7 @@ import { observable, action } from 'mobx'
 
 class MainStore {
   @observable data = {}
+  @observable testText = '123456'
 
   @action
   updateMainStore = (target, val) => {
