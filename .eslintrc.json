@@ -25,7 +25,8 @@
     "semi": ["error", "never"],
     "no-console": "off",
     "react/no-unescaped-entities": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "linebreak-style": 0
   },
   "globals": {
     "shallow": true,
