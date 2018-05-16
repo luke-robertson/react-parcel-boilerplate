@@ -15,8 +15,10 @@ yarn start OR npm run start
 ## Built With
 
 * [React](https://github.com/facebook/react) - JSX
+* [React Router](https://github.com/ReactTraining/react-router) - React Router
 * [Mobx](https://github.com/mobxjs/mobx) - Easy state mangament
 * [Parcel](https://github.com/parcel-bundler/parcel) - Easy webpack
+* [JSS](https://github.com/cssinjs/jss) - JSS instead of SCSS
 
 ## Authors
 
