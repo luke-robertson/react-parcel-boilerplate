@@ -4,7 +4,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import { ThemeProvider } from 'react-jss'
 
 import Container from 'components/Container/Container'
-import App from './App'
+import Background from 'components/Background/Background'
+
 import theme from './styles'
 
 const Router = () => (
@@ -12,7 +13,7 @@ const Router = () => (
     <ThemeProvider theme={theme}>
       <Switch>
         <Container>
-          <Route exact path="/" component={App} />
+          <Route exact path="/" component={Background} />
         </Container>
       </Switch>
     </ThemeProvider>

@@ -4,10 +4,13 @@ import PropTypes from 'prop-types'
 
 import styles from 'styles/global'
 
-const Container = ({ children }) => <div>{children}</div>
+const Container = ({ children, classes }) => (
+  <div className={classes.container}>{children}</div>
+)
 
 Container.propTypes = {
-  children: PropTypes.object
+  children: PropTypes.object,
+  classes: PropTypes.object
 }
 
 export default injectSheet(styles)(Container)
